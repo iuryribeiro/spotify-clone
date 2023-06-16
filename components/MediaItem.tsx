@@ -25,7 +25,7 @@ const MediaItem :React.FC<MediaItemProps> = ({
             return onClick(data.id)
         }
 
-       player.setId(data.id);
+      return player.setId(data.id);
     }
   return (
     <div
